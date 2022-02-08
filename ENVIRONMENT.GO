@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-
+// very basic iteration of enviornment variables to find the twitter api key
 func main(){
 	env := os.Environ()
  
