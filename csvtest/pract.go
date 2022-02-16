@@ -7,6 +7,7 @@ import (
 	"os"
 	"strconv"
 )
+// Linear prediction model, poorly written
 
 func main(){
 	file, _ := os.Open("tester.csv")
